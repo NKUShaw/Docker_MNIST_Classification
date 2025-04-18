@@ -1,6 +1,0 @@
-artifact_location: file:///app/mlruns/216691177993458805
-creation_time: 1744951272257
-experiment_id: '216691177993458805'
-last_update_time: 1744951272257
-lifecycle_stage: active
-name: MNIST-Classification
