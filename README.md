@@ -24,7 +24,11 @@ docker build -t mnist-pytorch .
 3. Run the container:
 
 ```bash
-docker run --gpus all --rm mnist-pytorch
+docker run --gpus all --rm mnist-pytorch 
+```
+or
+```bash
+docker run -it --rm --gpus all -v ${PWD}/mlruns:/app/mlruns mnist-pytorch
 ```
 
 ## 📈 Output

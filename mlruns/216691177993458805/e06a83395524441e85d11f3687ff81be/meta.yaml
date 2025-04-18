@@ -1,0 +1,15 @@
+artifact_uri: file:///app/mlruns/216691177993458805/e06a83395524441e85d11f3687ff81be/artifacts
+end_time: 1744951284967
+entry_point_name: ''
+experiment_id: '216691177993458805'
+lifecycle_stage: active
+run_id: e06a83395524441e85d11f3687ff81be
+run_name: monumental-calf-882
+run_uuid: e06a83395524441e85d11f3687ff81be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744951272740
+status: 3
+tags: []
+user_id: root
