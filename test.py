@@ -16,3 +16,5 @@ def test(model, loader, device='cuda'):
             correct += (predicted == labels).sum().item()
 
     print(f'Test Accuracy: {100 * correct / total:.2f}%')
+
+    return 100 * correct / total
