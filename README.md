@@ -26,3 +26,20 @@ docker build -t mnist-pytorch .
 ```bash
 docker run --gpus all --rm mnist-pytorch
 ```
+
+## 📈 Output
+
+```bash
+Epoch 0, Batch 0, Loss 2.2971
+Epoch 0, Batch 100, Loss 0.2794
+Epoch 0, Batch 200, Loss 0.1680
+Epoch 0, Batch 300, Loss 0.2421
+Epoch 0, Batch 400, Loss 0.1238
+Epoch 0, Batch 500, Loss 0.1077
+Epoch 0, Batch 600, Loss 0.1662
+Epoch 0, Batch 700, Loss 0.0913
+Epoch 0, Batch 800, Loss 0.0764
+Epoch 0, Batch 900, Loss 0.0495
+...
+Test Accuracy: 97.48%
+```
